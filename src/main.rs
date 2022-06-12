@@ -26,7 +26,7 @@ enum GameMode {
 
 fn main() -> BError {
     let context = BTermBuilder::simple80x50()
-        .with_title("Flappy Dragom")
+        .with_title("Flappy Dragon")
         .build()?;
     main_loop(context, State::new())
 }
